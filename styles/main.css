@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "Gentium Book Basic", 'Times New Roman', serif;
+    src: url(../font/GenBkBasR.ttf) 
+}
+@font-face {
+    font-family: "Vaseva", 'Times New Roman', serif;
+    src: url(../font/YesevaOne-Regular_v2.otf);
+}
+@font-face {
+    font-family: "Gentium Book Bold", 'Times New Roman', serif;
+    src: url(../font/GenBkBasB.ttf);
+}
+@font-face {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    src: url(../font/Lato-Regular.ttf);
+}
+body {
+    margin:0;
+    padding:0;
+    font-size: 10px;
+    box-sizing: border-box;
+                                    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+}
+footer, header, section {
+    display: block;
+}
+.content {
+    font-size: 10px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.navigation-wrapper {
+    display: inline;
+    height: 110px;
+    width: 1084px;
+    position: absolute;
+}
+.navigation {
+    display: inline;
+}
+li div {
+    display: inline-block;
+    margin: 0px 7px;
+    padding: 45px 20px;
+    text-align: center;
+    color: #fff;
+}
+.navigation ul {
+    display: inline;
+    margin-bottom: auto;
+}
+.navigation li {
+    display: inline;
+    height: 100%;
+    font-size: 21px;
+    font-family: "Gentium Book Bold";
+}
+.logo {
+    display: inline;
+    height: 100%;
+    
+    }
+.logo img {
+    display: inline;
+    margin: 40px 180px;
+}
+.navigation li div:hover {
+    color: #5c6f68;
+    border-top: 3px solid rgba(255,  255, 255, 0.7);
+} 
+.promo_section {
+    height: 750px;
+    width: 100%;
+    background: url(../images/header.gif) no-repeat;
+    background-position: 100% 0%;
+    
+}
+h1 {
+    font-size: 0px;
+}
+h2 {
+    font-family: "Vaseva";
+    font-size: 90px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    text-align: center;
+    color: #fff;
+    margin: 50px 0px;
+}
+h3 {
+    font-family: "Vaseva";
+    font-size: 36px;
+    text-align: center;
+    color: #DC9900;
+    -webkit-margin-before:0em;
+    -webkit-margin-after:0em;
+}
+h4 {
+    font-family: "Vaseva";
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    -webkit-margin-before:0em;
+    -webkit-margin-after:0em;
+}
+header {
+    height: 110px; 
+    width: 100%;
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.0) 100%);    
+}
+.head {
+    margin: 100px 0;
+}
+.links {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.link-table {
+    display: inline-block;
+    font-family: "Lato"; 
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 18px;
+    width: 190px;
+    border: 1px solid #000;
+    margin: 50px 15px;
+    padding: 20px;
+}
+
+.link-menu {
+    display: inline-block;
+    font-family: "Lato"; 
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    height: 18px;
+    width: 190px;
+    border: 1px solid #F4ECD3;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 50px 15px;
+    padding: 20px;
+}
+.link-menu :hover {
+    border: 3px solid rgba(0,  0, 0, 0.7);
+}
+.content-head {
+    width: 1100px;
+    margin: 0 auto;
+}
+.content-head img {
+    display: block;
+    margin: 2% auto;
+}               
+ .description-background {
+    background: url(../images/background-description.png) ;
+    height: 710px;
+    
+ }
+ .description {
+    background: rgba(255,  255, 255, 0.95);
+    height: 100%;
+ }
+ .description-content {
+    display: inline-block;
+    position: absolute;
+ }
+ .chef {
+    width: 430px;
+    height: 510px;
+    display: inline-block;
+    margin: 100px;
+    position: absolute;
+ }
+.chef-photo {
+    margin: 20% 33%;
+}
+ .about {
+    font-size: 16px;
+    font-family: "Lato";
+    text-align: center;
+    overflow: hidden;
+    height: 115px;
+ }
+ .chef img {
+     display: block;
+    margin: 20px auto;
+ }
+ .dish {
+     display: inline-block;
+     position: absolute;
+     left: 560px;
+     top: 57px;
+ }
+ .info {
+    height: 758px;
+    width: 100%;
+    background: url(../images/info-background.png) no-repeat 0% 0%;
+    position: relative;
+ }
+ .ingridients {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 430px;
+    position: absolute;
+    top: 100px;
+    left: 815px;
+    padding: 70px 70px;
+}
+.ingridients-info {
+    height: 130px;
+    width: 430px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Lato";
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}    
+.ingridients img {
+    display: block;
+    margin: 20px auto;
+}
+.ingridients-image div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 50px 15px;
+    border: rgba(0, 0, 0, 0.6) solid 5px;
+}
+.first-ingredient {
+    background: url(../images/first-ingredient.png) -36px -31px; 
+}
+.second-ingredient {
+    background: url(../images/second-ingredient.png) 26px -44px; 
+}
+.third-ingredient {
+    background: url(../images/third-ingredient.png) -36px -20px;
+}
+ .menu-background {
+    background: url(../images/background-menu.png) ;
+    height: 994px;
+ }
+ .menu {
+    background: rgba(255,  255, 255, 0.95);
+    height: 100%;
+ }
+ .reviews {
+    height: 760px;
+    width: 100%;
+    background: url(../images/reviews-background.jpg) no-repeat 0% 80%;
+    position: relative;
+ }
+ .reviews-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 450px;
+    width: 770px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    padding: 70px 0px;
+ }
+
+ .reviews-box img {
+    display: block;
+    margin: 20px auto 10px;
+ }
+ .reviews-info {
+    height: 270px;
+    width: 630px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: "Gentium Book Basic";
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 45px;
+    overflow: hidden;
+    color: #fff;
+}    
+.reviews-footer {
+    height: 50px;
+    width: 630px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Lato";
+    text-align: center;
+    color: #fff;
+    margin-top: 20px
+}
+.quote {
+    height:62px;
+    width: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 96px;
+    color: #9b9f9b;
+    position: absolute;
+    top: 65px;
+    left: 25px;
+ }
+ .feedback-background {
+    background: url(../images/background-description.png) ;
+    height: 710px;
+ }
+ .feedback {
+    background: rgba(255,  255, 255, 0.95);
+    height: 100%;
+ }
+ .feedback-box {
+     position: relative;
+ }
+ .feedback-image {
+
+ }
+ footer {
+    background: #191919;
+    height: 320px;
+    
+ }
+ main {
+    min-height: calc(100vh - 320px);
+ }
+ 
+ .description, .menu, .feedback {
+     box-shadow: inset 0 0 300px 0px rgba(0, 0, 0, 0.1);
+ }
